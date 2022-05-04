@@ -1,0 +1,154 @@
+                       * {
+                            margin: 0;
+                            padding: 0;
+                            font-family: Century Gothic;
+                        }
+
+                        .name h1{
+                            text-decoration: dashed;
+                            color: white;
+                            font-family: corsiva;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);}
+
+                        header {
+                            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('rm296-ning-10-job598.jpg');
+                            height: 100vh;
+                            background-size: cover;
+                            background-position: center;
+                        }
+
+                        ul {
+                            float: right;
+                            list-style-type: none;
+                            margin-top: 20px;
+                        }
+
+                        ul li {
+                            display: inline-block;
+                        }
+
+                        ul li a {
+                            text-decoration: dashed;
+                            color: white;
+                            padding: 5px 20px;
+                            border: 1px solid transparent;
+                            transition: 0.6s ease-in;
+                        }
+
+                        ul li a:hover {
+                            background-color: #fff;
+                            color: black;
+                        }
+
+
+
+                        .main {
+                            max-width: 1200px;
+                            margin: auto;
+                        }
+
+                        .title {
+                           color:rgb(219, 211, 211);
+                           font-size: 20px;
+                           font-family: Magneto;
+                           padding-left: 20px;
+                           float: left;
+                           padding-top: 10px;
+                        }
+
+                        .title h1 {
+                            color: rgb(250, 250, 250);
+                            font-size: 35px;
+                            text-decoration: wavy;
+                            font-family: corsiva;
+                        }
+
+                        .button {
+                            position: absolute;
+                            top: 65%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+
+                        .btn {
+                            border: 1px solid #fff;
+                            color: white;
+                            padding: 10px 20px;
+                            text-decoration: wavy;
+                            transition: 0.6 ease-in;
+                        }
+
+                        .btn:hover {
+                            background-color: #fff;
+                            color: black;
+                        }
+
+ .form1
+{
+width: 300px;
+height: 300px;
+
+position:absolute;
+bottom: 150px;
+right : 250px;
+border-radius: 50px;
+padding: 25px;
+}
+
+.form1 h3{
+width: 400px;
+font-family: Arial;
+text-align: absolute;
+color: white;
+font-size: 15px;
+
+border-radius: 150px;
+margin: 2px;
+padding: 8px;
+}
+.form1 input{
+width: 250px;
+height: 35px;
+background: transparent ;
+border-botttom: 1px solid rgb(86, 74, 149);
+border-top: none;
+border-right: none;
+border-left: none;
+color:white;
+font-size: 15px;
+letter-spacing: 1px;
+margin-top: 30px;
+font-family: sans-serif;
+}
+.form1 input:focus{
+outline:none;
+}
+::placeholder{
+color:white;
+font-family:Arial;
+}
+.btn2{
+width: 240px;
+height: 40px;
+background:rgb(244, 248, 245);
+border: none;
+margin-top: 30px;
+font-size: 18px;
+border-radius: 10px;
+-webkit-border-radius:;
+-moz-border-radius:;
+-ms-border-radius:;
+-o-border-radius:;
+}
+.btn2:hover{
+background: rgb(147, 19, 19);
+color:rgb(176, 116, 36);
+}
+.btn2 a{
+text-decoration: none;
+color: #000;
+font-weight: bold;
+}
+
