@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bhoomi</title>
+    <link rel="stylesheet"  href="{% static 'style.css' %}">
+
+</head>
+<body>
+
+<header>
+
+
+    <div class="main">
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/accounts/about">About</a></li>
+            <li><a href="/accounts/signup">SignUp</a></li>
+            <li><a href="/accounts/login">Login</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="title">
+        <h1><i><b>Engineers Quora</b></i></h1>
+    </div>
+
+
+    <div class = "form1">
+<h3>what is Django?<br> Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.</h3>
+
+<input type="text" name="question" placeholder="Add Question">
+<button class="btn2"><a href="#">SUBMIT</a></button>
+</div>
+</header>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup page</title>
+     <link rel="stylesheet"  href="{% static 'sign.css' %}">
+</head>
+<body>
+<form action="signup" method="post">
+    {% csrf_token %}
+<div class="quora">
+
+<h1><i>Engineers Quora</i></h1>
+</div>
+<div class="detail">
+<h1><b>Welcome. Signup here..</b></h1>
+<form action ="signup" method="post"></form>
+
+<br>
+<label>First Name</label>
+<input type="text" name="first name" class="sbmt" >
+<br>
+    <br>
+<label>Last Name</label>
+<input type="text" name="last name" class="sbmt" >
+<br>
+    <br>
+<label>User Name</label>
+<input type="text" name="User name" class="sbmt" >
+<br>
+    <br>
+<label>Email</label>
+<input type="email" name="email" class="sbmt" >
+<br>
+    <br>
+<label>Password</label>
+<input type="password" name="password" class="sbmt">
+<br>
+    <br>
+<input type="Submit" class="sbmt">
+<br>
+    <br>
+<h2>Already have an account?</h2><br>
+<center><a href="http://127.0.0.1:8000/accounts/login" class="btn">login here</a></center>
+</div>
+</form>
+</body>
+</html>
